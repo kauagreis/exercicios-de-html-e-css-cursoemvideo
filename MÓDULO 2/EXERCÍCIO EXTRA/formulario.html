@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="formulario.css">
+    <title>Document</title>
+    <style>
+        h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <br>
+    <br>
+    <!--Formulario-->
+    <h2>Formulario</h2>
+    <form action="arquivo.sql" method="post">
+        <p>Nome: <input type="text" name="nome" placeholder="Escreva seu nome" size="60"></p>
+
+        <p>Telefone: <input type="tel" placeholder="(61) 12345-6789" size="60" maxlength="11"></p>
+
+        <p>Data de nascimento: <input type="date" ></p>
+
+        <p>Senha: <input type="password" maxlength="8"><small>  A senha só poderá ter 8 caracteres</small></p>
+
+        <p>Email: <input type="email"></p>
+
+        <p>Idade: <input type="number"></p>
+
+         <p> Comentários:</p>
+       <p> <textarea name="comentarios"  cols="30" rows="10"></textarea></p>
+        
+        <!--Estrutura de Seleção-->
+
+        <p>
+            Time de Futebol:
+            <select name="Time de Futebol" id="">
+                <option value="nenhum"></option>
+                <option value="Palmeiras">Palmeiras</option>
+                <option value="Flameng">Flamengo</option>
+                <option value="Vasco">Vasco</option>
+                <option value="Atletico Mineiro">Atletico Mineiro</option>
+            </select>
+        </p>
+        <!--Estrutura de Opções-->
+        <p>
+            Estados Brasileiros:
+            <br>
+            <input type="radio" name="Estados"> Goiás
+            <br>
+            <input type="radio" name="Estados"> Mato Grosso
+            <br>
+            <input type="radio" name="Estados"> Curitiba
+            <br>
+            <input type="radio" name="Estados">São Paulo       
+             </p>
+             <!--checkbox-->
+             <p>
+                <input type="checkbox" name="confirmar">aceito fazer parte da ceita do html!!!
+            </p>
+            <input type="reset">
+            <input type="submit">
+        
+
+            <!--Fieldset-->
+        
+            <fieldset>
+                <legend>
+                    Dados Pessoais:
+                </legend>
+                <label>Nome:<input type="text"></label>
+                <label>CPF: <input type="text" value="cpf"></label>
+            </fieldset>
+        <!--estudar sobre div-->
+            <div></div>
+    </form>
+   
+</body>
+</html>

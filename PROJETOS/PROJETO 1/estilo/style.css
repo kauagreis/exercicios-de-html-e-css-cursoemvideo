@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/*/----------------------criação de fontes-------------------/*/
+@font-face {
+    font-family: "tecnologia";
+    src:  url(../fontes/idroid.otf) format(opentype);
+}
+@font-face {
+    font-family: "titulo";
+    src:url(../fontes/Bison-Bold\(PersonalUse\).ttf);
+    }
+/*/-------------------------geral------------------------/*/
+body{
+    background-color: #a6e7c3;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: lighter;
+    font-size: 20pt;
+    margin: auto;
+    width: 100%;
+} 
+/*/----------------------cabeçalho------------------------/*/
+header {
+    text-align: center;
+    background: linear-gradient(rgb(62, 228, 137), rgb(26, 96, 56));
+    padding: 20px;
+    border: 120px;
+    font-weight: 50;
+    text-shadow: 1px 1px 1px black;
+    margin: 0%;
+    box-shadow: 0px 7px 9px rgba(0, 0, 0, 0.363);
+}
+    
+
+    header > h1 {
+        font-family: "titulo";
+        color: white;
+        font-size: 100pt;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    }
+
+    header > p {
+        color: rgb(255, 255, 255);
+        font-size: 30pt;
+        font-family: Arial, Helvetica, sans-serif;
+        max-width: 600px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    }
+
+    header > nav {
+        color: rgb(206, 248, 197);
+        text-align: left;
+        box-shadow: 0px 7px 9px rgba (0, 0, 0, 0.315);
+        margin: 0%;
+
+}
+
+header > nav > a {
+    color: #a6e7c3;
+    text-decoration: none;
+    font-size: 19pt;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+header > nav > a:hover {
+    background-color: #a6e7c3;
+    padding: 10px;
+    color: rgba(6, 59, 6, 0.849);
+
+}
+
+/*/--------------------conteúdo principal----------------/*/
+  
+main {
+    
+    background-color: white;
+    padding: 20px;
+    margin-left: 51px;
+    margin-right: 51px;
+    margin-bottom: 20px;
+    border-end-end-radius: 20px;
+    border-end-start-radius: 20px;
+    margin: auto;
+    min-width: 300px;
+    max-width: 800px;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.267);
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.267);
+}
+
+main > h1 { 
+    font-family: "tecnologia";
+    color: rgba(5, 90, 5, 0.822);
+    width: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+main > h2 {
+    font-family: "tecnologia";
+    color: rgba(5, 90, 5, 0.822);
+    background: linear-gradient(to right,rgba(95, 185, 134, 0.541), white);
+    text-indent: 10px;
+}
+main > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 35px;
+}
+
+main > p > a {
+    background-color: #a6e7c3;
+    padding: 5px;
+    color: rgba(6, 59, 6, 0.849);
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+main > p > a::after {
+    content: '🔗';
+}
+
+main > p > a:hover {
+    background-color: #a6e7c3;
+    padding: 5px;
+    color: rgba(19, 163, 19, 0.836);
+    border-radius: 5px;
+
+}
+
+main > p > strong {
+    text-decoration: underline;
+}
+
+main > picture {
+max-width: 350px;
+margin: auto;
+} 
+
+main > div.video{
+    background-color: rgb(6, 59, 6);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+}
+
+main > div.video > iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+/*/----------------cessão do conteúdo--------------------/*/
+
+main > section {
+background-color:rgba(132, 225, 172, 0.541);
+border-radius: 20px;
+box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.281);
+padding: 0px 1px 2px 1px;
+}
+main > section > h3 {
+    color: rgb(255, 255, 255);
+    background-color: green;
+    padding: 14pt;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin: 0px;
+    font-size: 20pt;
+    text-shadow: 1px 1px 1px black;
+}
+main > section > p {
+    margin: 15px 0px;
+    text-align: justify;
+    text-indent: 30px;
+    line-height: 35px;
+    padding: 10px;
+}
+
+main > section > p > strong {
+    text-decoration: underline;
+}
+
+main > section > p > a {
+    background-color: rgba(6, 59, 6, 0.849);
+    padding: 5px;
+    color: #06ff76;
+    border-radius: 5px;
+    font-weight: bold;
+}
+main > section > p > a::after {
+   content: '🔗';
+}
+main > section > p > a:hover {
+    background-color: rgba(6, 59, 6, 0.849);
+    padding: 5px;
+    color: #40ff96;
+    border-radius: 5px;
+}
+
+main > section > ul{
+        list-style-type: '🗸';
+        list-style-position: inside;
+        columns: 2;
+    
+}
+/*/-------------------------rodapé------------------------/*/
+footer {
+    background-color: rgb(1, 63, 1);
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-weight: lighter;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+footer> a:hover {
+    background-color: #a6e7c3;
+    padding: 10px;
+    color: rgb(3, 26, 3);
+    border-radius: 5px;
+}
+

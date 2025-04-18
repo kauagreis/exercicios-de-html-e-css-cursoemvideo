@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "titulo 1";
+    src: url(../fontes/Barriecito-Regular.ttf);
+}
+
+@font-face {
+    font-family: "titulo 2";
+    src: url(../fontes/Tektur-VariableFont_wdth\,wght.ttf);
+}
+
+:root {
+    --cor0: rgb(135, 164, 184);
+    --cor1: rgb(255, 255, 255);
+    --cor2: rgb(94, 63, 63);
+    --cor3: rgb(17, 128, 17);
+
+    --fonte-titulo1: "titulo 1";
+    --fonte-titulo2: "titulo 2";
+    --fonte-p: "Arial, Verdana, Helvetica, sans-serif";
+}
+
+body{
+    background-color: var(--cor0);
+}
+
+h1 {
+    text-align: center;
+    color: var(--cor1);
+    font-family: var(--fonte-titulo1);
+}
+
+h2{
+    color: var(--cor2);
+    font-family: var(--fonte-titulo2);
+}
+
+p{
+    color: var(--cor3);
+    font-family: var(--fonte-p);
+
+}

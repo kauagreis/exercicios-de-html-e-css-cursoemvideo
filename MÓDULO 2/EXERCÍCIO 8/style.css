@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(185, 205, 231);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    color: darkblue;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: rgb(168, 157, 216);
+}
+
+h2 {
+    color: blueviolet;
+}
+
+p {
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.basico {
+    color: aqua;
+
+}
+
+.intermediario {
+    color: blueviolet;
+}
+
+.avancado {
+    color: blue;
+}
