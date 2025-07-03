@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: darkgray;
+    
+}
+
+/*/---------------cabeçalho----------------------/*/
+
+header {
+    font-size: 40pt;
+    color: white;
+    background-color: black;
+    text-align: center;
+    font-variant: small-caps;
+    padding: 50px;
+}
+header > p > a {
+    text-decoration: none;
+    color: rgb(241, 236, 236);
+    font-weight: bold;
+    }
+
+header > p > a:hover {
+    text-decoration: underline;
+}
+/*/---------------Conteúdo----------------------/*/
+
+main {
+
+    text-align: left;
+    font-size: 30pt;
+
+}
+/*/-------------Sessão do Conteúdo-------------/*/
+
+main > section {
+
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+
+}
+
+section.normal {
+    background-color: white;
+    color: black;
+}
+
+section.imagem {
+    background-color: rgb(56, 54, 54);
+    color: white;
+}
+
+section.imagem > p {
+    background-color: rgba(0, 0, 0, 0.267);
+    max-width: 400px;
+}
+
+
+
+/*/---------------rodapé----------------------/*/
+
+footer {
+    font-size: 25pt;
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+}
+
+footer > p >  a {
+    text-decoration: none;
+    color: rgb(241, 236, 236);
+    font-weight: bold;
+}
+
+footer> p > a:hover {
+    text-decoration: underline;
+
+    
+}
